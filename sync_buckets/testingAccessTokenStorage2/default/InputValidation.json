@@ -1,0 +1,15 @@
+{
+    "moduleName": "InputValidation",
+    "validationSchema": {
+        "type": "object",
+        "properties": {
+            "SAMPLE_FIELD": {
+                "type": "string"
+            }
+        },
+        "required": [
+            "SAMPLE_FIELD"
+        ],
+        "additionalProperties": true
+    }
+}
